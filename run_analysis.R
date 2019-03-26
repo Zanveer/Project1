@@ -22,8 +22,7 @@
 # Load Libraries
 # ========================================================================================================
 
-library(reshape2)
-library(data.table)
+packages <- c("data.table", "reshape2")
 
 
 # download end extract ZipFile if not already downloaded
